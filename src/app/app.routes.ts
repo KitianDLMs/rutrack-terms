@@ -4,7 +4,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { MainComponent } from './pages/main/main.component';
 
 export const routes: Routes = [
-  { path: 'policity', component: MainComponent },
   { path: '', component: TermsComponent },
+  { path: 'policity', component: MainComponent },
   { path: 'contacto', component: ContactoComponent }
 ];
